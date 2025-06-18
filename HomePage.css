@@ -1,0 +1,19 @@
+/* HomePage.css - Styles specific to the Home Page */
+.home-page {
+  text-align: center;
+  padding: 1rem;
+  background-color: #ecfeff; /* Light blue background */
+  border-radius: 0.5rem;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.06);
+  width: 100%;
+}
+
+.home-page p {
+  font-size: 1.125rem;
+  color: #374151;
+  line-height: 1.6;
+}
+
+.home-page strong {
+  color: #4f46e5;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vanilla JS Multi-Page App</title>
+    <!-- Link to the main stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link to page-specific stylesheets (will be dynamically loaded or managed by JS in a real scenario) -->
+    <link rel="stylesheet" href="HomePage.css" id="home-css" disabled>
+    <link rel="stylesheet" href="CounterPage.css" id="counter-css" disabled>
+    <link rel="stylesheet" href="ListPage.css" id="list-css" disabled>
+</head>
+<body>
+    <div class="app-container">
+        <div class="main-content-card">
+            <h1>Vanilla JS Multi-Page Demo</h1>
+
+            <!-- Navigation Bar -->
+            <nav class="nav-bar">
+                <button id="home-btn" class="btn active" data-page="home">Home</button>
+                <button id="counter-btn" class="btn" data-page="counter">Counter</button>
+                <button id="list-btn" class="btn" data-page="list">List</button>
+            </nav>
+
+            <!-- Page Content Area -->
+            <div id="page-content" class="content-section">
+                <!-- Content will be injected here by JavaScript -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Link to the main JavaScript file -->
+    <script src="script.js"></script>
+</body>
+</html>
