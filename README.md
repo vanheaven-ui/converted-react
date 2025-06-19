@@ -10,8 +10,6 @@ This project is a demonstration of a multi-page web application built using pure
 - [Features](#features)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
-- [How to Run](#how-to-run)
-- [Conversion from ReactJS (Context)](#conversion-from-reactjs-context)
 
 ---
 
